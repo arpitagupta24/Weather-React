@@ -1,4 +1,5 @@
 # Weather
+
 A weather app with 4 day forecast using React.js, HTML, CSS
 
 Weather Update App
@@ -6,24 +7,24 @@ Overview
 Welcome to the Weather Update App! This application allows you to check the current weather and a 4-day forecast for a specific city or your current location. It's a simple and user-friendly tool to stay informed about the weather conditions.
 ￼
 Features
-* Search by City: Enter the name of a city to get the current weather and forecast.
-* Location Detection: Click the "My Location" button to automatically fetch weather data based on your current location.
-* Temperature Units: Toggle between Celsius and Fahrenheit units for temperature display.
-* Background Images: The app dynamically changes the background image based on the weather condition, creating a visually appealing experience.
-Getting Started
-To run the Weather Update App locally:
-* 		Clone this repository.
-* 		Install the required dependencies using npm install.
-* 		Create a .env file in the project root and add your OpenWeatherMap API key as follows:makefile  Copy codeREACT_APP_apiKey=YOUR_API_KEY_HERE   
-* 		Start the app with npm start.
-Background Images
-The app displays background images based on weather conditions. You can customize the images by modifying the getBackgroundImage function in the App.js file. For example, you can add more cases to display different images for various weather conditions.
-Attribution
-* Weather data is provided by OpenWeatherMap.
-* Background images are sourced from Unsplash.
-Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
 
+- Search by City: Enter the name of a city to get the current weather and forecast.
+- Location Detection: Click the "My Location" button to automatically fetch weather data based on your current location.
+- Temperature Units: Toggle between Celsius and Fahrenheit units for temperature display.
+- Background Images: The app dynamically changes the background image based on the weather condition, creating a visually appealing experience.
+  Getting Started
+  To run the Weather Update App locally:
+-     	Clone this repository.
+-     	Install the required dependencies using npm install.
+-     	Create a .env file in the project root and add your OpenWeatherMap API key as follows:makefileCopy codeREACT_APP_apiKey=YOUR_API_KEY_HERE
+-     	Start the app with npm start.
+  Background Images
+  The app displays background images based on weather conditions. You can customize the images by modifying the getBackgroundImage function in the App.js file. For example, you can add more cases to display different images for various weather conditions.
+  Attribution
+- Weather data is provided by OpenWeatherMap.
+- Background images are sourced from Unsplash.
+  Contributing
+  Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Available Scripts
 
@@ -49,5 +50,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-
