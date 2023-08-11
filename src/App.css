@@ -1,0 +1,230 @@
+/* Global Styles */
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/day.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Add a semi-transparent overlay */
+  /* Other styles... */
+}
+
+/* Container Styles */
+#heading_of_app {
+  font-size: 50px !important;
+  color: #878876;
+}
+
+#weatherMainContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+#userInputContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Heading Styles */
+
+#heading_of_app {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Input Styles */
+
+#userInputBox {
+  padding: 12px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#seperator {
+  font-size: 18px;
+  color: #999;
+  margin: 0 15px;
+}
+
+/* Button Styles */
+
+#myLocationBtn {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#myLocationBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Weather Details Container Styles */
+
+#weatherDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Main Weather Details Styles */
+
+#mainWeatherDetails {
+  margin-bottom: 20px;
+}
+
+#temperature {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#condition {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 5px;
+  color: #555;
+}
+
+#location {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Additional Weather Details Styles */
+
+#extraWeatherDetails {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#feelsLike,
+#humidity {
+  text-align: center;
+}
+
+#feelsLike p,
+#humidity p {
+  margin: 5px 0;
+}
+
+/* Forecast Container Styles */
+
+#forecastContainer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+#forecastHeading {
+  font-size: 28px;
+  margin: 0;
+  color: #555;
+  opacity: 0;
+  /* Start with 0 opacity */
+  animation: fadeIn 1s ease-in-out forwards;
+  /* Apply fade-in animation */
+}
+
+/* Forecast Items Styles */
+
+.forecastItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.forecastItem {
+  text-align: center;
+  width: calc(20% - 20px);
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.forecastItem:hover {
+  transform: translateY(-5px);
+}
+
+.forecastDate {
+  font-size: 16px;
+  color: #777;
+}
+
+.forecastTemp {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.forecastCondition {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Unit Toggle Button Styles */
+
+.unitToggle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add more CSS classes for other weather conditions and their corresponding background images */
+
+/* ... (your existing styles) */
